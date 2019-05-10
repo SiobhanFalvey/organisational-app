@@ -1,22 +1,30 @@
-import React from "react";
-import MealPlan from "./components/mealPlan/mealPlan";
+import React, { Component } from "react";
+import store from "./store";
 import ToDoList from "./components/toDoList/toDoList";
 import ShoppingList from "./components/shoppingList/shoppingList";
 import "./App.css";
 import Bills from "./components/bills/bills";
-import Header from "./components/header/header";
+import HeaderContainer from "./container/headerContainer";
+import { Provider } from "react-redux";
+import MealPlanContainer from "./container/mealPlanContainer";
+import { NavLink } from "react-router-dom";
+import { Redirect, Route, Switch, Router } from "react-router-dom";
 
-const App: React.FC = () => {
-  return (
-    <div className="App">
-      <header className="App-header">Organise Me </header>
-      <Header />
-      <MealPlan />
-      <ToDoList />
-      <ShoppingList />
-      <Bills />
-    </div>
-  );
-};
+class App extends Component {
+  public render() {
+    return (
+      <Provider store={store}>
+        <div className="App">
+          <header className="App-header">Organise Me </header>
+          <HeaderContainer />
+          <MealPlanContainer />
+          <ToDoList />
+          <ShoppingList />
+          <Bills />
+        </div>
+      </Provider>
+    );
+  }
+}
 
 export default App;

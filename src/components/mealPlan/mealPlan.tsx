@@ -11,6 +11,9 @@ class MealPlan extends React.Component<IProps, IState> {
     return (
       <div>
         <header className={styles.mealPlanHeader}>Meal Plan</header>
+        <section>
+          <input type="text" />
+        </section>
       </div>
     );
   }

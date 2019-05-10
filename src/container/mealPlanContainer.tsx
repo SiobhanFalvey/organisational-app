@@ -9,9 +9,9 @@ class MealPlanContainer extends React.Component<IProps, IState> {
   // state = { :  }
   render() {
     return (
-      <section>
+      <>
         <MealPlan />
-      </section>
+      </>
     );
   }
 }
