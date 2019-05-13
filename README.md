@@ -1,3 +1,8 @@
+
+A personal project application based on creating a comprehensive organisational app using react and typescript. This work is still in progress. 
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
