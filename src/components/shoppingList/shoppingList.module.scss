@@ -1,10 +1,13 @@
+@import "../../assests/variables.scss";
+
+
 .shoppingList {
-  font-size: 30pt;
-  border: solid white 3px;
-  border-radius: 15px;
-  background-color: #c19999;
-  color: white;
-  padding: 15px;
-  margin: 15px;
-  width: 200px;
+  font-size: $primary-font-size;
+  border: $primary-border;
+  border-radius: $primary-border-radius;
+  background-color: $primary-color;
+  color: $secondary-color;
+  padding: $padding;
+  margin: $margin;
+  width: $primary-width;
 }

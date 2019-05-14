@@ -8,7 +8,8 @@ import HeaderContainer from "./container/headerContainer";
 import { Provider } from "react-redux";
 import MealPlanContainer from "./container/mealPlanContainer";
 import { NavLink } from "react-router-dom";
-import { Redirect, Route, Switch, Router } from "react-router-dom";
+import { BrowserRouter, Route, Link } from "react-router-dom";
+
 
 class App extends Component {
   public render() {

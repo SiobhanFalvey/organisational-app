@@ -1,10 +1,24 @@
+@import "../../assests/variables.scss";
+
 .mealPlanHeader {
-  font-size: 30pt;
-  color: white;
-  padding: 15px;
-  border: solid 3px;
-  border-radius: 20px;
-  margin: 15px;
+  font-size: $primary-font-size;
+  color: $secondary-color;
+  padding: $padding;
+  border: $primary-border;
+  border-radius: $primary-border-radius;
+  margin: $margin;
+  width: $primary-width;
+  background-color: $primary-color;
+}
+
+.mealPlanInput {
   width: 200px;
-  background-color: #c19999;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.mealPlanContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -1,10 +1,14 @@
+@import "../../assests/variables.scss";
+
+
 .menuContainer {
   list-style: none;
   color: white;
   text-align: right;
-  border: solid;
-  width: 200px;
+  border: $primary-border;
+  width: $primary-width;
   padding: 5px;
+  border-radius: $primary-border-radius;
 }
 
 .dropDownMenu {

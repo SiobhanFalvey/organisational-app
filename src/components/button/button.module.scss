@@ -1,0 +1,23 @@
+@import "../../assests/variables.scss";
+
+
+.button {
+    padding: 5px;
+    border-radius: 8px;
+    background-color: $primary-color;
+    border: solid white;
+    width: 60px;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15pt;
+    margin: $padding;
+    animation-name: border-glow; 
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+    @keyframes border-glow{
+        0% {border: solid white; }
+        50%{border: solid #c199;}
+        100% {border: solid white}
+    }
+}

@@ -2,7 +2,7 @@ body {
   background-image: url(assests/pink-wall.jpg);
   background-attachment: fixed;
   background-size: cover;
-  font-family: "Dancing Script", cursive;
+  font-family: 'Libre Baskerville', serif;
   display: flex;
   justify-content: center;
 }
